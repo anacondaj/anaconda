@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from pprint import pprint
 
-data=pd.read_csv("C:\\Users\\aksha\\Downloads\\PlayTennis.csv") 
+data=pd.read_csv("C:\\Users\\anacondaj\\Downloads\\PlayTennis.csv") 
 data_size=len(data)
 treenodes=[]
 tree={"Root":data}
